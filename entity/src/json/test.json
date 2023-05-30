@@ -1,0 +1,12 @@
+{
+    "menuList": [
+        {
+            "path": "/menu1",
+            "name": "menu1"
+        },
+        {
+            "path": "/menu2",
+            "name": "menu2"
+        }
+    ]
+}
