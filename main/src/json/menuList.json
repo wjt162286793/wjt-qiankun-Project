@@ -1,0 +1,68 @@
+{
+    "menuList": [
+        {
+            "name": "charts",
+            "path": "/charts",
+            "cname": "图表管理",
+            "index": "1",
+            "children": [
+                {
+                    "name": "model",
+                    "path": "/charts/model",
+                    "cname": "模型统计",
+                    "index": "1-1"
+                },
+                {
+                    "name": "property",
+                    "path": "/charts/property",
+                    "cname": "财产统计",
+                    "index": "1-2"
+                },
+                {
+                    "name": "statistics",
+                    "path": "/charts/statistics",
+                    "cname": "计量统计",
+                    "index": "1-3"
+                },
+                {
+                    "name": "traffic",
+                    "path": "/charts/traffic",
+                    "cname": "流量统计",
+                    "index": "1-4"
+                }
+            ]
+        },
+        {
+            "name": "entity",
+            "path": "/entity",
+            "cname": "实体管理",
+            "index": "2",
+            "children": [
+                {
+                    "name": "publicAsset",
+                    "path": "/charts/publicAsset",
+                    "cname": "公共资产",
+                    "index": "2-1"
+                },
+                {
+                    "name": "riskAsset",
+                    "path": "/charts/riskAsset",
+                    "cname": "风险资产",
+                    "index": "2-2"
+                },
+                {
+                    "name": "task",
+                    "path": "/charts/task",
+                    "cname": "任务",
+                    "index": "2-3"
+                },
+                {
+                    "name": "valueFlow",
+                    "path": "/charts/valueFlow",
+                    "cname": "价值流",
+                    "index": "2-4"
+                }
+            ]
+        }
+    ]
+}

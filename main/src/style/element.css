@@ -1,0 +1,54 @@
+.el-menu{
+    background: var(--background-color1);
+    --el-menu-bg-color:var(--background-color1);
+}
+.el-menu--horizontal > .el-menu-item{
+    font-size: 20px;
+    min-width: 140px;
+}
+.el-menu-item{
+    font-size: 18px;
+}
+.el-menu--horizontal .el-menu-item:not(.is-disabled):hover{
+    background-color:#fff !important; 
+    color: var(--text-span-color) !important;
+}
+.el-menu>.el-menu-item:hover{
+    background-color:#fff;
+    font-size: 18px;
+    color: var(--text-span-color);
+}
+.el-menu>.el-menu-item.is-active{
+    background: #fff;
+    font-size: 18px;
+    border-bottom:2px solid var(--border-color) !important;
+    color: var(--text-span-color) !important;
+}
+.el-sub-menu>.el-sub-menu__title:hover{
+    background-color:#fff !important; 
+    color: var(--text-span-color) !important;
+}
+.el-sub-menu:hover{
+    background-color:#fff !important; 
+    color: var(--text-span-color) !important;
+}
+.el-menu--horizontal>.el-menu-item{
+    color: #fff !important;
+}
+.headMain .el-menu--horizontal>.el-menu-item.is-active{
+    border-bottom:2px solid var(--text-span-color) !important;
+    color: var(--text-span-color-active) !important;
+}
+.el-button--primary{
+    --el-button-bg-color: var(--primary-color) !important;
+    --el-button-active-bg-color:var(--primary-color) !important;
+    --el-button-border-color:var(--border-color) !important;
+    --el-button-hover-border-color:var(--border-color) !important;
+    --el-button-active-border-color:var(--border-color) !important;
+    color: #fff;
+    background-color: var(--primary-color) !important;
+    border-color: var(--border-color) !important;
+}
+.el-button:hover{
+    background-color:var(--primary-color) !important;
+} 

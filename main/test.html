@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log(window, '全局变量')
+        function Person(name, age) {
+            this.name = name
+            this.age = age
+        }
+        let wang = new Person('wangjingtao', 26)
+        console.log(Person, '构造函数')
+        console.log(wang, '实例对象')
+    </script>
+</body>
+
+</html>

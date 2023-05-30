@@ -1,0 +1,30 @@
+[data-theme="red"]{
+    --primary-color:#A32810;
+    --info-color:#1e1e1e;
+    --background-color1: #A32810;
+    --text-h1-color:#A32810;
+    --text-span-color:#A32810;
+    --text-span-color-active:#A32810;
+    --border-color:#A32810;
+    --icon-text1:#fff;
+}
+[data-theme="blue"]{
+    --primary-color:blue;
+    --info-color:blue;
+    --background-color1: blue;
+    --text-h1-color:blue;
+    --text-span-color:blue;
+    --text-span-color-active:#fff;
+    --border-color:blue;
+    --icon-text1:#fff;
+}
+[data-theme="cyan"]{
+    --primary-color:#039cae;
+    --info-color:#039cae;
+    --background-color1: #039cae;
+    --text-h1-color:#039cae;
+    --text-span-color:#039cae;
+    --text-span-color-active:#fff;
+    --border-color:#039cae;
+    --icon-text1:#fff;
+}
